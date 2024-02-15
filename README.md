@@ -49,6 +49,9 @@ The project's primary goal is to assess the model's performance in predicting st
 | 5000              | 0.002              | 0.0115               |
 
 
+![Figure 2: Actual vs Predicted Prices (most accurate 5000 epochs model)](visualization_5_epochs.png)
+<p align="center"><em>Figure 1: Actual vs Predicted Prices (most inaccurate 5 epochs model)</em></p>
+
 ![Figure 2: Actual vs Predicted Prices (most accurate 5000 epochs model)](visualization_5000_epochs.png)
 <p align="center"><em>Figure 1: Actual vs Predicted Prices (most accurate 5000 epochs model)</em></p>
 
