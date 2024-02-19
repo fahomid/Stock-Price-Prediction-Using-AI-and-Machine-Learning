@@ -56,3 +56,7 @@ with open(f'scaler_{number_epochs}_epochs.pkl', 'wb') as f:
 print("Scaler saved successfully as scaler.pkl.")
 
 print(f'\n\nModel saved successfully with {number_epochs} epochs!')
+
+# evaluating the model on the test set
+test_loss = model.evaluate(X_test_lstm, y_test, verbose=2)
+print(f'Test Loss: {test_loss}')
